@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+  @apply bg-gray-50 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  
+  /* NovaKleen Brand Colors */
+  --nk-green-900: #2D3D2D;
+  --nk-green-800: #3A4E3A;
+  --nk-pink-500: #E8B4C4;
+  --nk-pink-600: #D894A8;
+  --nk-pink-50: #FCF4F7;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 20% 98%;
+  --muted-foreground: 217.2 32.6% 17.5%;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Custom Utilities for Brand Colors */
+.bg-nk-green { background-color: var(--nk-green-900); }
+.bg-nk-pink { background-color: var(--nk-pink-500); }
+.text-nk-green { color: var(--nk-green-900); }
+.text-nk-pink { color: var(--nk-pink-500); }
+.border-nk-green { border-color: var(--nk-green-900); }
+.border-nk-pink { border-color: var(--nk-pink-500); }
+
+.hover\:bg-nk-green-800:hover { background-color: var(--nk-green-800); }
+.hover\:bg-nk-pink-600:hover { background-color: var(--nk-pink-600); }
+
+.bg-nk-pink-50 { background-color: var(--nk-pink-50); }
+.to-nk-pink-50 { --tw-gradient-to: var(--nk-pink-50) var(--tw-gradient-to-position); }

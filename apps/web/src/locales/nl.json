@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Novaquote, directe offerte voor dakreiniging",
+    "description": "Ontvang direct een gepersonaliseerde offerte voor uw dakreiniging. Professionele service met enzymatische behandeling en tevredenheidsgarantie."
+  },
+  "header": {
+    "subtitle": "Professionele Dakreiniging"
+  },
+  "footer": {
+    "description": "Specialisten in dakreiniging en onderhoud. Wij brengen uw dak weer tot leven met duurzame en milieuvriendelijke oplossingen.",
+    "contact": "Contacteer ons",
+    "legal": "Wettelijke Informatie",
+    "services": "Onze Diensten",
+    "services_list": {
+      "pressure": "Hogedrukreiniging",
+      "enzyme": "Enzymatische behandeling",
+      "demossing": "Dakontmossing",
+      "waterproof": "Hydrofobe behandeling"
+    },
+    "insurance": "Beroepsverzekering",
+    "rights": "Alle rechten voorbehouden.",
+    "terms": "Algemene Voorwaarden",
+    "privacy": "Privacybeleid",
+    "zones": "Zones: Wallonië & Brussel"
+  },
+  "hero": {
+    "title": "Ontvang direct uw offerte",
+    "subtitle": "Automatische dakoppervlakte analyse via satelliet"
+  },
+  "quote_generator": {
+    "address_label": "Adres van het pand",
+    "coord_hint": "Tip: u kunt ook coördinaten invoeren, bijv. 50.359120, 5.378172",
+    "use_location": "Gebruik mijn huidige locatie",
+    "locating": "Lokaliseren...",
+    "surface_label": "Geschatte dakoppervlakte",
+    "surface_calculating": "Gebouw analyseren...",
+    "surface_retry": "Opnieuw proberen ({attempt}/2)...",
+    "surface_solar_desc": "Gemiddelde helling {pitch}° · coëfficiënt {coeff}x (Google Solar)",
+  "solar_analyzing": "Echte dakpanning analyseren via Google Solar...",
+  "surface_auto_desc": "Automatisch berekend op basis van grondoppervlak (+25% standaardhelling BE)",
+    "pv_label": "Fotovoltaïsche panelen om af te trekken",
+    "pv_hint": "1,6 m² per paneel afgetrokken van oppervlakte",
+    "pv_effective": "Effectief oppervlak na aftrek: {surface} m²",
+    "pv_exceeds": "Het aantal panelen overschrijdt het beschikbare oppervlak.",
+    "select_address_prompt": "Selecteer een adres om de oppervlakte te berekenen",
+    "map_label": "Satellietbeeld / Kaart",
+    "generate_btn": "Offerte genereren",
+    "calculating_btn": "Berekenen...",
+    "new_search": "Nieuwe zoekopdracht",
+    "toast": {
+      "surface_calculated": "Oppervlakte berekend",
+      "surface_desc": "Gedetecteerde grondoppervlakte: {area}m². Geschatte dakoppervlakte: {roofArea}m² (inclusief helling).",
+      "building_not_found": "Gebouw niet gevonden",
+      "building_not_found_desc": "Kan de contouren van het gebouw niet automatisch detecteren. Controleer het adres.",
+      "connection_unstable": "Verbinding instabiel",
+      "retry_desc": "Berekening opnieuw proberen...",
+      "error_calc": "Berekeningsfout",
+      "error_calc_desc": "Kan de oppervlakte niet automatisch verkrijgen na meerdere pogingen.",
+      "quote_generated": "Offerte gegenereerd",
+      "quote_success": "Uw offerte is succesvol berekend.",
+      "missing_surface": "Oppervlakte ontbreekt",
+      "missing_surface_desc": "Selecteer eerst een geldig adres om de oppervlakte te berekenen."
+    },
+    "geo_error": {
+        "title": "Fout",
+        "not_supported": "Geolocatie wordt niet ondersteund door uw browser.",
+        "searching": "Zoeken",
+        "locating_desc": "Uw positie lokaliseren...",
+        "found": "Positie gevonden",
+        "found_desc": "Gebouw analyseren...",
+        "denied": "Geolocatie geweigerd",
+        "denied_desc": "Sta toegang tot uw locatie toe in uw browserinstellingen.",
+        "unavailable": "Positie niet beschikbaar",
+        "unavailable_desc": "Kan uw positie niet bepalen. Probeer het adres handmatig in te voeren.",
+        "timeout": "Time-out verstreken",
+        "timeout_desc": "De lokalisatie duurde te lang. Probeer het opnieuw of voer het adres handmatig in.",
+        "tech_error": "Technische fout",
+        "tech_desc": "Er is een onbekende fout opgetreden tijdens de geolocatie."
+    }
+  },
+  "quote_result": {
+    "title": "Uw gedetailleerde schatting",
+    "address": "Adres",
+    "surface": "Geschatte dakoppervlakte",
+    "unlock_title": "Ontgrendel uw schatting",
+    "unlock_desc": "Voer eenvoudig uw telefoonnummer in om direct de details van uw schatting te zien.",
+    "phone_label": "Telefoonnummer (België)",
+    "phone_placeholder": "0470 12 34 56",
+    "email_label": "E-mailadres",
+    "email_placeholder": "voorbeeld@email.com",
+    "view_price_btn": "Bekijk mijn prijs",
+    "validating_btn": "Valideren...",
+    "locked_prices": "Verborgen prijzen",
+    "click_to_unlock": "Klik om prijzen te ontgrendelen",
+    "step1_title": "STAP #1: KOUD WATER REINIGING MIDDENDRUK",
+    "step1_desc": "- Middendruk (om mos en vuil te verwijderen)\n- Grondig en veilig\n- Geen schade aan pannen of leien",
+    "step2_title": "STAP #2: PREVENTIEVE SPUITING (ENZYMEN)",
+    "step2_desc": "Voor preventief onderhoud en biologische afbraak van mos.\n- Biologisch afbreekbaar, Langdurig effect\n- Geen spoeling nodig",
+    "tranches_info": "{tranches} schijven (20m²) × {price}€",
+    "subtotal": "Subtotaal Excl. BTW",
+    "discount": "Korting",
+    "vat": "BTW",
+    "total_vat": "Totaal Geschat Incl. BTW",
+    "disclaimer_title": "Belangrijk",
+    "disclaimer_text": "Deze berekening is een automatische schatting die ter informatie wordt verstrekt. Het vervangt geen technische expertise. Het uiteindelijke bedrag kan variëren afhankelijk van de werkelijke staat van het dak, de toegankelijkheid en specifieke beperkingen van de werf.",
+    "download_pdf": "PDF downloaden",
+    "receive_email": "Per e-mail ontvangen",
+    "validity": "Schatting 30 dagen geldig ter informatie.",
+    "success_download": "Succes",
+    "success_download_desc": "Uw offerte is succesvol gedownload.",
+    "email_saved": "E-mail opgeslagen",
+    "email_saved_desc": "Uw e-mailadres is succesvol opgeslagen.",
+    "receive_modal_title": "Schatting ontvangen",
+    "receive_modal_desc": "Voer uw e-mailadres in om het PDF-document te ontvangen.",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "invalid_phone": "Ongeldig nummer",
+    "invalid_phone_desc": "Voer een geldig telefoonnummer in om door te gaan.",
+    "prices_unlocked": "Prijzen ontgrendeld!",
+    "prices_unlocked_desc": "U kunt nu de details van uw offerte bekijken."
+  },
+  "address_input": {
+    "placeholder": "Voer een adres in...",
+    "clear": "Invoer wissen"
+  },
+  "map": {
+    "placeholder_title": "Satellietbeeld",
+    "placeholder_desc": "Voer een adres in om het satellietbeeld te tonen"
+  },
+  "reviews": {
+    "partner": "Betrouwbare Partner",
+    "title": "Onze klanten vertellen",
+    "excellent": "Uitstekend",
+    "based_on": "Gebaseerd op",
+    "reviews_count": "beoordelingen",
+    "verified": "Geverifieerd door Google",
+    "read_all": "Lees alle beoordelingen op Google",
+    "loading": "Google beoordelingen laden...",
+    "error": "Kan beoordelingen niet laden."
+  },
+  "testimonials": {
+    "title": "Klantgetuigenissen",
+    "subtitle": "Wat onze klanten zeggen over onze diensten"
+  },
+  "guarantee": {
+    "title": "Onze Garanties",
+    "warranty_2y": "2 Jaar Garantie",
+    "warranty_desc": "Al onze werken hebben 2 jaar garantie",
+    "quality": "Gecertificeerde Kwaliteit",
+    "quality_desc": "RGE gecertificeerd en gekwalificeerd bedrijf",
+    "rapid": "Snelle Interventie",
+    "rapid_desc": "Offerte binnen 24u, werk binnen 7 dagen",
+    "satisfaction": "Tevredenheid Gegarandeerd",
+    "satisfaction_desc": "98% tevreden klanten sinds 2015"
+  },
+  "cta": {
+    "text": "Laten we uw ideeën werkelijkheid maken"
+  },
+  "welcome": {
+    "text": "Schrijf in de chat wat je wilt creëren."
+  }
+}

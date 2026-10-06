@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Novaquote, devis instantané pour un démoussage de toit",
+    "description": "Obtenez instantanément un devis personnalisé pour le nettoyage de votre toiture. Service professionnel avec traitement enzymatique et garantie satisfaction."
+  },
+  "header": {
+    "subtitle": "Nettoyage de Toiture Professionnel"
+  },
+  "footer": {
+    "description": "Spécialistes du nettoyage et de l'entretien de toiture. Nous redonnons vie à votre toit avec des solutions durables et respectueuses de l'environnement.",
+    "contact": "Contactez-nous",
+    "legal": "Informations Légales",
+    "services": "Nos Services",
+    "services_list": {
+      "pressure": "Nettoyage haute pression",
+      "enzyme": "Traitement enzymatique",
+      "demossing": "Démoussage de toiture",
+      "waterproof": "Traitement hydrofuge"
+    },
+    "insurance": "Assurance Professionnelle",
+    "rights": "Tous droits réservés.",
+    "terms": "Conditions Générales",
+    "privacy": "Politique de Confidentialité",
+    "zones": "Zones : Wallonie & Bruxelles"
+  },
+  "hero": {
+    "title": "Obtenez votre devis instantané",
+    "subtitle": "Analyse automatique de la surface de toiture via satellite"
+  },
+  "quote_generator": {
+    "address_label": "Adresse de la propriété",
+    "coord_hint": "Astuce : vous pouvez aussi saisir des coordonnées, ex. 50.359120, 5.378172",
+    "use_location": "Utiliser ma position actuelle",
+    "locating": "Localisation...",
+    "surface_label": "Surface de toit estimée",
+    "surface_calculating": "Analyse du bâtiment en cours...",
+    "surface_retry": "Nouvelle tentative ({attempt}/2)...",
+    "surface_auto_desc": "Calculé automatiquement d'après l'empreinte au sol (+25% pente standard Belgique)",
+  "surface_solar_desc": "Pente moyenne {pitch}° · coefficient {coeff}x (Google Solar)",
+  "solar_analyzing": "Analyse de la pente réelle via Google Solar...",
+    "pv_label": "Panneaux photovoltaïques à déduire",
+    "pv_hint": "1,6 m² par panneau déduit de la surface",
+    "pv_effective": "Surface effective après déduction : {surface} m²",
+    "pv_exceeds": "Le nombre de panneaux dépasse la surface disponible.",
+    "select_address_prompt": "Sélectionnez une adresse pour calculer la surface",
+    "map_label": "Vue Satellite / Carte",
+    "generate_btn": "Générer le devis",
+    "calculating_btn": "Calcul en cours...",
+    "new_search": "Nouvelle recherche",
+    "toast": {
+      "surface_calculated": "Surface calculée",
+      "surface_desc": "Surface au sol détectée: {area}m². Surface de toiture estimée: {roofArea}m² (incluant pente).",
+      "building_not_found": "Bâtiment non trouvé",
+      "building_not_found_desc": "Impossible de détecter les contours du bâtiment automatiquement. Veuillez vérifier l'adresse.",
+      "connection_unstable": "Connexion instable",
+      "retry_desc": "Réessai du calcul en cours...",
+      "error_calc": "Erreur de calcul",
+      "error_calc_desc": "Impossible d'obtenir la surface automatiquement après plusieurs tentatives.",
+      "quote_generated": "Devis généré",
+      "quote_success": "Votre devis a été calculé avec succès.",
+      "missing_surface": "Surface manquante",
+      "missing_surface_desc": "Veuillez d'abord sélectionner une adresse valide pour calculer la surface."
+    },
+    "geo_error": {
+        "title": "Erreur",
+        "not_supported": "La géolocalisation n'est pas supportée par votre navigateur.",
+        "searching": "Recherche en cours",
+        "locating_desc": "Localisation de votre position...",
+        "found": "Position trouvée",
+        "found_desc": "Analyse du bâtiment en cours...",
+        "denied": "Géolocalisation refusée",
+        "denied_desc": "Veuillez autoriser l'accès à votre position dans les paramètres de votre navigateur.",
+        "unavailable": "Position indisponible",
+        "unavailable_desc": "Impossible de déterminer votre position. Essayez d'entrer l'adresse manuellement.",
+        "timeout": "Délai d'attente dépassé",
+        "timeout_desc": "La localisation a pris trop de temps. Veuillez réessayer ou entrer l'adresse manuellement.",
+        "tech_error": "Erreur technique",
+        "tech_desc": "Une erreur inconnue est survenue lors de la géolocalisation."
+    }
+  },
+  "quote_result": {
+    "title": "Votre estimation détaillée",
+    "address": "Adresse",
+    "surface": "Surface de toit estimée",
+    "unlock_title": "Débloquer votre estimation",
+    "unlock_desc": "Entrez simplement votre numéro de téléphone pour révéler instantanément le détail de votre estimation.",
+    "phone_label": "Numéro de téléphone (Belgique)",
+    "phone_placeholder": "0470 12 34 56",
+    "email_label": "Adresse email",
+    "email_placeholder": "exemple@email.com",
+    "view_price_btn": "Voir mon prix",
+    "validating_btn": "Validation...",
+    "locked_prices": "Tarifs masqués",
+    "click_to_unlock": "Cliquez pour débloquer les tarifs",
+    "step1_title": "ETAPE #1 : NETTOYAGE EAU FROIDE MOYENNE PRESSION",
+    "step1_desc": "- Moyenne pression (pour enlever mousse et encrassement)\n- En profondeur et sûr\n- Aucun dommage aux tuiles ou ardoises",
+    "step2_title": "ETAPE #2 : PULVERISATION PREVENTIVE (ENZYMES)",
+    "step2_desc": "Pour l'entretien préventif et la dégradation biologique de la mousse.\n- Biodégradable, Effet durable\n- Pas de rinçage nécessaire",
+    "tranches_info": "{tranches} tranches (20m²) × {price}€",
+    "subtotal": "Sous-total HTVA",
+    "discount": "Remise",
+    "vat": "TVA",
+    "total_vat": "Total Estimé TVAC",
+    "disclaimer_title": "Important",
+    "disclaimer_text": "Ce calcul est une estimation automatique fournie à titre indicatif. Il ne remplace pas une expertise technique. Le montant final peut varier selon l'état réel de la toiture, son accessibilité et les contraintes spécifiques du chantier.",
+    "download_pdf": "Télécharger le PDF",
+    "receive_email": "Recevoir par email",
+    "validity": "Estimation valable 30 jours à titre indicatif.",
+    "success_download": "Succès",
+    "success_download_desc": "Votre devis a été téléchargé avec succès.",
+    "email_saved": "Email enregistré",
+    "email_saved_desc": "Votre adresse email a été enregistrée avec succès.",
+    "receive_modal_title": "Recevoir l'estimation",
+    "receive_modal_desc": "Entrez votre adresse email pour recevoir le document PDF.",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "invalid_phone": "Numéro invalide",
+    "invalid_phone_desc": "Veuillez entrer un numéro de téléphone valide pour continuer.",
+    "prices_unlocked": "Prix débloqués !",
+    "prices_unlocked_desc": "Vous pouvez maintenant consulter le détail de votre devis."
+  },
+  "address_input": {
+    "placeholder": "Entrez une adresse...",
+    "clear": "Effacer l'entrée"
+  },
+  "map": {
+    "placeholder_title": "Vue Satellite",
+    "placeholder_desc": "Entrez une adresse pour afficher la vue satellite"
+  },
+  "reviews": {
+    "partner": "Partenaire de confiance",
+    "title": "Nos clients parlent de nous",
+    "excellent": "Excellent",
+    "based_on": "Basé sur",
+    "reviews_count": "avis",
+    "verified": "Vérifié par Google",
+    "read_all": "Lire tous les avis sur Google",
+    "loading": "Chargement des avis Google...",
+    "error": "Impossible de charger les avis."
+  },
+  "testimonials": {
+    "title": "Témoignages clients",
+    "subtitle": "Ce que nos clients disent de nos services"
+  },
+  "guarantee": {
+    "title": "Nos garanties",
+    "warranty_2y": "Garantie 2 ans",
+    "warranty_desc": "Tous nos travaux sont garantis pendant 2 ans",
+    "quality": "Qualité certifiée",
+    "quality_desc": "Entreprise certifiée RGE et qualifiée",
+    "rapid": "Intervention rapide",
+    "rapid_desc": "Devis sous 24h, travaux sous 7 jours",
+    "satisfaction": "Satisfaction garantie",
+    "satisfaction_desc": "98% de clients satisfaits depuis 2015"
+  },
+  "cta": {
+    "text": "Transformons vos idées en réalité"
+  },
+  "welcome": {
+    "text": "Écrivez dans le chat ce que vous souhaitez créer."
+  }
+}

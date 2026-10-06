@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+llms.txt
+supabase/.temp/
+.vercel
+.DS_Store
+*.log

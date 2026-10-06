@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Novaquote, instant quote for roof cleaning",
+    "description": "Get an instant personalized quote for your roof cleaning. Professional service with enzymatic treatment and satisfaction guarantee."
+  },
+  "header": {
+    "subtitle": "Professional Roof Cleaning"
+  },
+  "footer": {
+    "description": "Specialists in roof cleaning and maintenance. We bring your roof back to life with sustainable and environmentally friendly solutions.",
+    "contact": "Contact Us",
+    "legal": "Legal Information",
+    "services": "Our Services",
+    "services_list": {
+      "pressure": "High pressure cleaning",
+      "enzyme": "Enzymatic treatment",
+      "demossing": "Roof demossing",
+      "waterproof": "Waterproofing treatment"
+    },
+    "insurance": "Professional Insurance",
+    "rights": "All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "zones": "Zones: Wallonia & Brussels"
+  },
+  "hero": {
+    "title": "Get your instant quote",
+    "subtitle": "Automatic roof surface analysis via satellite"
+  },
+  "quote_generator": {
+    "address_label": "Property Address",
+    "coord_hint": "Tip: you can also enter coordinates, e.g. 50.359120, 5.378172",
+    "use_location": "Use my current location",
+    "locating": "Locating...",
+    "surface_label": "Estimated Roof Surface",
+    "surface_calculating": "Analyzing building...",
+    "surface_retry": "Retrying ({attempt}/2)...",
+    "surface_solar_desc": "Average slope {pitch}° · coefficient {coeff}x (Google Solar)",
+  "solar_analyzing": "Analyzing real roof pitch via Google Solar...",
+  "surface_auto_desc": "Automatically calculated from ground footprint (+25% standard slope BE)",
+    "pv_label": "Photovoltaic panels to deduct",
+    "pv_hint": "1.6 m² per panel deducted from surface",
+    "pv_effective": "Effective surface after deduction: {surface} m²",
+    "pv_exceeds": "The number of panels exceeds the available surface.",
+    "select_address_prompt": "Select an address to calculate surface",
+    "map_label": "Satellite View / Map",
+    "generate_btn": "Generate Quote",
+    "calculating_btn": "Calculating...",
+    "new_search": "New Search",
+    "toast": {
+      "surface_calculated": "Surface calculated",
+      "surface_desc": "Ground surface detected: {area}m². Estimated roof surface: {roofArea}m² (including slope).",
+      "building_not_found": "Building not found",
+      "building_not_found_desc": "Unable to detect building contours automatically. Please check the address.",
+      "connection_unstable": "Connection unstable",
+      "retry_desc": "Retrying calculation...",
+      "error_calc": "Calculation error",
+      "error_calc_desc": "Unable to obtain surface automatically after several attempts.",
+      "quote_generated": "Quote generated",
+      "quote_success": "Your quote has been calculated successfully.",
+      "missing_surface": "Missing surface",
+      "missing_surface_desc": "Please select a valid address first to calculate the surface."
+    },
+    "geo_error": {
+        "title": "Error",
+        "not_supported": "Geolocation is not supported by your browser.",
+        "searching": "Searching",
+        "locating_desc": "Locating your position...",
+        "found": "Position found",
+        "found_desc": "Analyzing building...",
+        "denied": "Geolocation denied",
+        "denied_desc": "Please allow access to your location in your browser settings.",
+        "unavailable": "Position unavailable",
+        "unavailable_desc": "Unable to determine your position. Try entering the address manually.",
+        "timeout": "Timeout exceeded",
+        "timeout_desc": "Localization took too long. Please retry or enter address manually.",
+        "tech_error": "Technical error",
+        "tech_desc": "An unknown error occurred during geolocation."
+    }
+  },
+  "quote_result": {
+    "title": "Your detailed estimate",
+    "address": "Address",
+    "surface": "Estimated roof surface",
+    "unlock_title": "Unlock your estimate",
+    "unlock_desc": "Simply enter your phone number to reveal the details of your estimate instantly.",
+    "phone_label": "Phone Number (Belgium)",
+    "phone_placeholder": "0470 12 34 56",
+    "email_label": "Email Address",
+    "email_placeholder": "example@email.com",
+    "view_price_btn": "See my price",
+    "validating_btn": "Validating...",
+    "locked_prices": "Hidden Prices",
+    "click_to_unlock": "Click to unlock prices",
+    "step1_title": "STEP #1: MEDIUM PRESSURE COLD WATER CLEANING",
+    "step1_desc": "- Medium pressure (to remove moss and dirt)\n- Deep and safe\n- No damage to tiles or slates",
+    "step2_title": "STEP #2: PREVENTIVE SPRAYING (ENZYMES)",
+    "step2_desc": "For preventive maintenance and biological degradation of moss.\n- Biodegradable, Long-lasting effect\n- No rinsing necessary",
+    "tranches_info": "{tranches} tranches (20m²) × {price}€",
+    "subtotal": "Subtotal Excl. VAT",
+    "discount": "Discount",
+    "vat": "VAT",
+    "total_vat": "Total Incl. VAT",
+    "disclaimer_title": "Important",
+    "disclaimer_text": "This calculation is an automatic estimate provided for information purposes. It does not replace a technical expertise. The final amount may vary depending on the actual state of the roof, accessibility, and specific site constraints.",
+    "download_pdf": "Download PDF",
+    "receive_email": "Receive by email",
+    "validity": "Estimate valid for 30 days for information purposes.",
+    "success_download": "Success",
+    "success_download_desc": "Your quote has been downloaded successfully.",
+    "email_saved": "Email saved",
+    "email_saved_desc": "Your email address has been saved successfully.",
+    "receive_modal_title": "Receive estimate",
+    "receive_modal_desc": "Enter your email address to receive the PDF document.",
+    "cancel": "Cancel",
+    "save": "Save",
+    "invalid_phone": "Invalid number",
+    "invalid_phone_desc": "Please enter a valid phone number to continue.",
+    "prices_unlocked": "Prices unlocked!",
+    "prices_unlocked_desc": "You can now view the details of your quote."
+  },
+  "address_input": {
+    "placeholder": "Enter an address...",
+    "clear": "Clear input"
+  },
+  "map": {
+    "placeholder_title": "Satellite View",
+    "placeholder_desc": "Enter an address to display satellite view"
+  },
+  "reviews": {
+    "partner": "Trusted Partner",
+    "title": "Our clients talk about us",
+    "excellent": "Excellent",
+    "based_on": "Based on",
+    "reviews_count": "reviews",
+    "verified": "Verified by Google",
+    "read_all": "Read all reviews on Google",
+    "loading": "Loading Google reviews...",
+    "error": "Unable to load reviews."
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What our clients say about our services"
+  },
+  "guarantee": {
+    "title": "Our Guarantees",
+    "warranty_2y": "2 Year Warranty",
+    "warranty_desc": "All our work is guaranteed for 2 years",
+    "quality": "Certified Quality",
+    "quality_desc": "RGE certified and qualified company",
+    "rapid": "Rapid Intervention",
+    "rapid_desc": "Quote within 24h, work within 7 days",
+    "satisfaction": "Satisfaction Guaranteed",
+    "satisfaction_desc": "98% satisfied clients since 2015"
+  },
+  "cta": {
+    "text": "Let's turn your ideas into reality"
+  },
+  "welcome": {
+    "text": "Write in the chat what you want to create."
+  }
+}
